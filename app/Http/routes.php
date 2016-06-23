@@ -12,8 +12,6 @@
 */
 
 Route::get('/', function () {
-	Auth::logout(); 
-	Auth::loginUsingId(1); 
     return view('welcome');
 });
 
